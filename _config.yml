@@ -1,0 +1,18 @@
+# Permalinks
+#
+#permalink:           pretty
+permalink:           date
+
+# Setup
+title:               'Hop and Fork'
+tagline:             'bla bla bla'
+description:         ''
+#url:                 http://lanyon.getpoole.com
+baseurl: '' 
+gems: [jekyll-paginate]
+paginate:            5
+paginate_path: "page:num"
+
+
+# Custom vars
+version:             1.0.0
