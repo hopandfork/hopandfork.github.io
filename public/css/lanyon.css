@@ -564,3 +564,37 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+
+
+
+/* Authors section */
+.author-container {
+	margin: 20px 20px 0 0;  
+	border: 0px solid #333;
+	overflow: auto
+}
+.author-thumb {
+	float: left
+}
+.author-thumb img {
+	width: 150px;
+	border-radius: 50%;
+	display: block
+}
+.author-content {
+	margin-left: 160px
+}
+@media (max-width: 28em) {
+  .author-thumb {
+	display: block;
+	float: none;
+  }
+  .author-thumb img {
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .author-content {
+	margin-left: 0px;
+  }
+}

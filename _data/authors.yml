@@ -1,5 +1,18 @@
+# Pictures MUST have same width and height.
+# If no picture is available, use: "/public/images/user.png"
+#
+federico:
+    name: "Federico Di Domenicantonio"
+    web: https://fededido.github.io/
+    pic: '/public/images/user.png'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
+                for Hop and Fork.'
+    
 gabriele_russorusso:
     name: "Gabriele Russo Russo"
     web: https://github.com/childerico
+    pic: '/public/images/gab.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
                 for Hop and Fork.'
+
+
