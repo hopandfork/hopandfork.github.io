@@ -1,0 +1,15 @@
+---
+layout: page
+title: About
+---
+
+Something about the team...
+
+<h2>Team</h2>
+
+{% for member in site.data.authors %}
+<h3><a href="{{ member[1].web }}" target="_blank">
+	{{ member[1].name }}
+</a></h3>
+<p> {{ member[1].bio }} </p>
+{% endfor %}
