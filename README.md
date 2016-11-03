@@ -1,45 +1,25 @@
 ## Hop and Fork blog ##
 This is the official blog for **Hop and Fork**. We built it on top of *Lanyon* theme.
 
-### Structure ###
-<pre>
-.  
-|-- .gitignore  
-|-- README  
-|-- _config.yml  
-|-- _layouts  
-|   |-- layout.html  
-|   `-- post.html  
-|-- _posts  
-|   `-- 1985-10-26-Test-Post.md  
-`-- index.html  
-</pre>
+### Writing a new post ###
+You have to create a new file in `_posts` directory, giving it a name with
+following format: `YYYY-MM-DD-Your-title.md` (where `YYYY-MM-DD` is the date
+on which the post will result published).  
 
-Lets take a look at what each of these do.
+The post file will have following structure:
 
-### .gitignore ###
-This file is not manditory for a proper Jekyll install, but is useful if you are like me and use a mac (ignore the DS_Store) or emacs (ignore the autosave files). If you have any other files or folders that need ignoring toss them in here.
+	---
+	layout: post
+	title: Your title
+	category: Linux
+	author: author_id
+	---
 
-### README ###
-This file is not manditory for a proper Jekyll install, but is recomended by GitHub for all repositories. Toss a simple description of your site and its make up in here if you would like.
+	Post content, using Markdown syntax.
 
-### _config.yml ###
-This is where you will be putting your Jekyll configuration options. If this file is omitted Jekyll will use its defualts to build your site. You can find the configuration options and default configuration [here](https://github.com/mojombo/jekyll/wiki/configuration).
+Note that `author_id` must be defined in `_data/authors.yml` file.
 
-### _layouts ###
-This folder is where you will be putting all your layout templates. I have added layout.html and post.html so you can get an idea of how they are strutured and used. 
+Then, you just need to commit and
+push!
 
-#### layout.html ####
-This is the base template for our site. There are no naming conventions, but if you choose to change this file's name make sure you update all the layout references in your file's YAML Front Matter blocks.
 
-#### post.html ####
-This is the bast template for each of our posts. Again there are no naming conventions, but make sure you update the required files YAML Front Matter blocks if you do change its name. To learn more about the use of YAML Front Matter check out [this page](https://github.com/mojombo/jekyll/wiki/yaml-front-matter).
-
-### _posts ###
-This is your posts folder. You will be putting your blog posts in here. Notice the naming convention that is used. You will want to name your files with the the publish date preceeding the posts title all seperated by dashes (Year-Month-Day-Title-Of-The-Post.md). The post date that you see is pulled straight from this filename so make sure you lable your files right.
- 
-#### 1985-10-26-Test-Post.md ####
-This is a simple blog post. Notice that we are using markdown. To learn more about markdown check out the [markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax). Also notice that there is YAML Front Matter in this file specifying the layout it will use and the title of the post. Layout is one of a couple predefined global variables. You can also specify custom variables in the YAML Front Matter. To learn more about the use of YAML Front Matter check out [this page](https://github.com/mojombo/jekyll/wiki/yaml-front-matter).
-
-### index.html ###
-This is used to render your sites index. It is essentially a post loop wrapped in your base layout.

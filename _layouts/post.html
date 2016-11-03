@@ -9,16 +9,28 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}
+
+  <!-- Look the author details up from the site config. -->
+  {% assign author = site.data.authors[page.author] %}
+
+
+  <span class="post-date">
+	  <!-- Output author details if some exist. -->
+	  {% if author %}
+		  <!-- Personal Info. -->
+		  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+		  <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+	  {% endif %}
 	  &#126;
-  {% for category in categories %}
-	  <a href="{{site.baseurl}}/categories.html#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
+	  {{ page.date | date_to_string }}
   </span>
   {{ content }}
 </div>
 <div class="post-categories">
+  {% for category in categories %}
+	  <a href="{{site.baseurl}}/categories.html#{{category|slugize}}">&#35;{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
 </div>
 
 <div class="related">

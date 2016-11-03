@@ -5,8 +5,8 @@ permalink:           date
 
 # Setup
 title:               'Hop and Fork'
-tagline:             'bla bla bla'
-description:         ''
+tagline:             'Work in progress...'
+description:         'Open Source team @ University of Rome Tor Vergata'
 #url:                 http://lanyon.getpoole.com
 baseurl: '' 
 gems: [jekyll-paginate]

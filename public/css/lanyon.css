@@ -103,9 +103,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-weight: bold;
 }
 .masthead-title a {
   color: #505050;
+  text-decoration: none;
 }
 .masthead-title small {
   font-size: 75%;
@@ -157,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .90rem;
   }
 }
 
@@ -317,6 +319,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
+  text-decoration: none;
 }
 .page-title,
 .post-title {
