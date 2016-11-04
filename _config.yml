@@ -7,7 +7,7 @@ permalink:           date
 title:               'Hop and Fork'
 tagline:             'Work in progress...'
 description:         'Open Source team @ University of Rome Tor Vergata'
-#url:                 http://lanyon.getpoole.com
+url:                 https://hopandfork.github.io
 baseurl: '' 
 gems: [jekyll-paginate]
 paginate:            5
