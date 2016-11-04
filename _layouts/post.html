@@ -18,8 +18,10 @@ layout: default
 	  <!-- Output author details if some exist. -->
 	  {% if author %}
 		  <!-- Personal Info. -->
-		  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-		  <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+		  <a href="/about.html#{{ page.author }}" target="_blank">
+			  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+			  {{ author.name }}
+		  </a>
 	  {% endif %}
 	  &#126;
 	  {{ page.date | date_to_string }}
