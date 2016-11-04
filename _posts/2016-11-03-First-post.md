@@ -3,6 +3,7 @@ layout: post
 title: Work in progress
 category: Linux
 author: gabriele_russorusso
+comments: true
 ---
 
 

@@ -13,6 +13,7 @@ The post file will have following structure:
 	title: Your title
 	category: Linux
 	author: author_id
+	comments: true
 	---
 
 	Post content, using Markdown syntax.
