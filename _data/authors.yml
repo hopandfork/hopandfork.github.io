@@ -3,10 +3,10 @@
 #
 giuseppe_chiapparo:
     name: "Giuseppe Chiapparo"
-    web: ''
-    pic: '/public/images/user.png'
+    web: https://github.com/GiuseppeChiapparo
+    pic: '/public/images/giuseppe.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-    for Hop and Fork. Life motto: "You can always do it better!".'
+    		for Hop and Fork.'
 
 federico_didom:
     name: "Federico Di Domenicantonio"
