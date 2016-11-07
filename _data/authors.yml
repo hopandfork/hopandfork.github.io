@@ -4,9 +4,9 @@
 federico:
     name: "Federico Di Domenicantonio"
     web: https://fededido.github.io/
-    pic: '/public/images/user.png'
+    pic: '/public/images/federico.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-                for Hop and Fork.'
+                for Hop and Fork. Coffee drinker.'
     
 gabriele_russorusso:
     name: "Gabriele Russo Russo"
@@ -20,6 +20,20 @@ gabriele_russorusso:
 luca_fulgieri:
     name: "Luca Fulgieri"
     web: https://github.com/LucaF89 
+    pic: '/public/images/luca.jpg'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
+                for Hop and Fork. Croissants lover.'
+
+domenico_spera:
+    name: "Domenico Spera"
+    web: ''
     pic: '/public/images/user.png'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-                for Hop and Fork.'
+                for Hop and Fork. Security is life.'
+
+giuseppe_chiapparo:
+    name: "Giuseppe Chiapparo"
+    web: ''
+    pic: '/public/images/user.png'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
+    for Hop and Fork. Life motto: "You can always do it better!".'
