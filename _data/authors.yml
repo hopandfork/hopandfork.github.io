@@ -1,12 +1,26 @@
 # Pictures MUST have same width and height.
 # If no picture is available, use: "/public/images/user.png"
 #
-federico:
+giuseppe_chiapparo:
+    name: "Giuseppe Chiapparo"
+    web: ''
+    pic: '/public/images/user.png'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
+    for Hop and Fork. Life motto: "You can always do it better!".'
+
+federico_didom:
     name: "Federico Di Domenicantonio"
     web: https://fededido.github.io/
-    pic: '/public/images/federico.jpg'
+    pic: '/public/images/user.png'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", part time
+		software engineer, full time pedant.  Brewing code out of coffee
+		and cheap beer.'
+luca_fulgieri:
+    name: "Luca Fulgieri"
+    web: https://github.com/LucaF89 
+    pic: '/public/images/luca.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-                for Hop and Fork. Coffee drinker.'
+                for Hop and Fork. Croissants lover.'
     
 gabriele_russorusso:
     name: "Gabriele Russo Russo"
@@ -14,15 +28,7 @@ gabriele_russorusso:
     pic: '/public/images/gab.jpg'
     bio: 'Computer Science student with head in the Cloud. Developer,
                 bug hunter, system administrator if necessary... always
-                on Linux!'
-
-
-luca_fulgieri:
-    name: "Luca Fulgieri"
-    web: https://github.com/LucaF89 
-    pic: '/public/images/luca.jpg'
-    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-                for Hop and Fork. Croissants lover.'
+                on Linux'
 
 domenico_spera:
     name: "Domenico Spera"
@@ -31,9 +37,3 @@ domenico_spera:
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
                 for Hop and Fork. Security is life.'
 
-giuseppe_chiapparo:
-    name: "Giuseppe Chiapparo"
-    web: ''
-    pic: '/public/images/user.png'
-    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-    for Hop and Fork. Life motto: "You can always do it better!".'
