@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Work in progress
-category: Linux
+categories: Category1 Category2
 author: gabriele_russorusso
 comments: true
 ---
