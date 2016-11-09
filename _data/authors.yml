@@ -11,7 +11,7 @@ giuseppe_chiapparo:
 alessandro_didiego:
     name: "Alessandro Di Diego"
     web: https://github.com/alessandrodd
-    pic: '/public/images/user.jpg'
+    pic: '/public/images/user.png'
     bio: 'Computer Science student at University of Rome "Tor Vergata", future Tibetan hermit'
 
 federico_didom:
