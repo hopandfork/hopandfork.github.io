@@ -33,9 +33,8 @@ gabriele_russorusso:
     name: "Gabriele Russo Russo"
     web: https://github.com/childerico
     pic: '/public/images/gab.jpg'
-    bio: 'Computer Science student with head in the Cloud. Developer,
-                bug hunter, system administrator if necessary... always
-                on Linux.'
+    bio: 'Computer Science student with head in the Cloud. The only thing that is
+          constant in my projects: Linux and off-by-one bugs.'
 
 domenico_spera:
     name: "Domenico Spera"
