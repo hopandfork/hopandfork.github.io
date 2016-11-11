@@ -14,7 +14,7 @@ Zero occupying the zeroth cell.  Being the first post, it will not have
 specific content or revolutionary news, on the contrary its scope is marking
 the start of a new project packed with interesting posts and contents.
   
-Hop and Fork project was founded by a group of students attending their ME in
+Hop and Fork project was founded by a group of students attending their MSE in
 Computer Science in University of Rome Tor Vergata. Between a coffee at the
 bar and a chat in the corridors, we spend a great amount of time in project
 related both to university and our jobs. Exam after exam, project after
