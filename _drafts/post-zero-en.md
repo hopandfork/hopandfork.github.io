@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Post Zero: Project Hop and Fork
+title: "Post Zero: Project Hop and Fork"
 category: Hopandfork
-author: 
+author: ''
 comments: true
 ---
 

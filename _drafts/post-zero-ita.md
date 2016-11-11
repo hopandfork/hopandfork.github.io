@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Zero Post: Hopandfork's project
+title: "The Zero Post: Hopandfork's project"
 category: Hopandfork
 author: 
 comments: true
