@@ -21,7 +21,7 @@ related both to university and our jobs. Exam after exam, project after
 project, we are growing, and it is growing in us, too, the will of sharing
 our knowledge.
 
-Nowadays everything is shared, an idea, a sentence, a picture ora a video. But
+Nowadays everything is shared, an idea, a sentence, a picture or a video. But
 "partition anxiety" is not yet a widespread disease in the computer world.
 A lot of companies persist in choosing to produce _proprietary_ code instead of
 open source code.  However, the _open_ choice is growing tremendously, and
