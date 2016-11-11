@@ -44,7 +44,7 @@ Finally, we hope that our readers will feel the need of contributing with
 their impressions and opinions, with no holds barred and with no fear to
 give useful suggestions.  Hop and Fork is a project that puts cooperation on
 top of its vision, and for this exact reason we would like to invite you to
-the _openSource_lunch. It is a virtual lunch in which the main guest is open
+the _openSource_ lunch. It is a virtual lunch in which the main guest is open
 source itself, and thanks to Jim Zemlin (Executive Director of Linux Foundation)
 we know that "Open Source is Eating the Software World", and we can only say
 that we are extremely hungry.
