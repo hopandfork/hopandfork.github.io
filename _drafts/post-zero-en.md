@@ -7,10 +7,10 @@ comments: true
 ---
 
 The common meaning of Zero is nothing, null or the absence of a value. In
-computer science, on the other hand, it stands for the origin, that is the
+computer science, on the other hand, it stands for the origin, the
 start of something: in fact there is no data structure not starting with the
 index zero. This blog should be seen as a vector containing posts, with Post
-Zero occupying the zeroth cell.  Being the first post, it will not have
+Zero occupying the 0th cell.  Being the first post, it will not have
 specific content or revolutionary news, on the contrary its scope is marking
 the start of a new project packed with interesting posts and contents.
   
