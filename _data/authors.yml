@@ -3,10 +3,16 @@
 #
 giuseppe_chiapparo:
     name: "Giuseppe Chiapparo"
-    web: ''
-    pic: '/public/images/user.png'
+    web: https://github.com/GiuseppeChiapparo
+    pic: '/public/images/giuseppe.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-    for Hop and Fork. Life motto: "You can always do it better!".'
+    		for Hop and Fork.'
+
+alessandro_didiego:
+    name: "Alessandro Di Diego"
+    web: https://github.com/alessandrodd
+    pic: '/public/images/user.png'
+    bio: 'Computer Science student at University of Rome "Tor Vergata", future Tibetan hermit'
 
 federico_didom:
     name: "Federico Di Domenicantonio"
@@ -15,20 +21,20 @@ federico_didom:
     bio: 'Computer Science student at University of Rome "Tor Vergata", part time
 		software engineer, full time pedant.  Brewing code out of coffee
 		and cheap beer.'
+
 luca_fulgieri:
     name: "Luca Fulgieri"
     web: https://github.com/LucaF89 
     pic: '/public/images/luca.jpg'
-    bio: 'Computer Science student at University of Rome "Tor Vergata", developer
-                for Hop and Fork. Croissants lover.'
-    
+    bio: 'Computer Science student at University of Rome "Tor Vergata", overload developer
+                for Hop and Fork. Problem of Croissant''s addiction.'
+
 gabriele_russorusso:
     name: "Gabriele Russo Russo"
     web: https://github.com/childerico
     pic: '/public/images/gab.jpg'
-    bio: 'Computer Science student with head in the Cloud. Developer,
-                bug hunter, system administrator if necessary... always
-                on Linux.'
+    bio: 'Computer Science student with head in the Cloud. The only thing that is
+          constant in my projects: Linux and off-by-one bugs.'
 
 domenico_spera:
     name: "Domenico Spera"
@@ -36,4 +42,3 @@ domenico_spera:
     pic: '/public/images/dom.jpg'
     bio: 'Computer Science student at University of Rome "Tor Vergata", developer
                 for Hop and Fork.'
-

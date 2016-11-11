@@ -23,6 +23,10 @@ comments: true
 			  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
 			  {{ author.name }}
 		  </a>
+	  {% else %}
+		  <a href="/about.html">
+			  The team
+		  </a>
 	  {% endif %}
 	  &#126;
 	  {{ page.date | date_to_string }}
