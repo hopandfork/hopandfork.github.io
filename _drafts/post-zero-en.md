@@ -6,8 +6,6 @@ author: ''
 comments: true
 ---
 
-##Post Zero: Project Hop and Fork
-
 The common meaning of Zero is nothing, null or the absence of a value. In
 computer science, on the other hand, it stands for the origin, that is the
 start of something: in fact there is no data structure not starting with the

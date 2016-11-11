@@ -10,7 +10,7 @@ The post file will have following structure:
 
 	---
 	layout: post
-	title: Your title
+	title: "Your title"
 	category: Linux
 	author: author_id
 	comments: true
