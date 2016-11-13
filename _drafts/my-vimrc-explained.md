@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Configuring ViM: my .vimrc explained"
-categories: Linux Programming
+categories: Configuration Programming
 author: gabriele_russorusso
 comments: true
 ---
 
 [ViM](http://www.vim.org) is one of the most popular text editors on Linux. If
-you are a programer and you haven't ever used it, you should probably give 
+you are a programmer and you haven't ever used it, you should probably give 
 it a try (after reading a primer like [this](https://danielmiessler.com/study/vim/#gs.944UoJI)).
 ViM is extremely powerful and has got a lot of awesome features. However, some
 of them are not enabled by default, so a good configuration can make the
@@ -60,25 +60,36 @@ set softtabstop=8
 set tabstop=8
 set noexpandtab
 filetype plugin indent on
+set backspace=indent,eol,start
 {% endhighlight %}
 
+This block is about indentation. I like to use hard tabs to indent and display
+them 8-spaces wide. You should adjust these settings according to your
+preferences. Here I also enable `filetype` plugin to have custom indentation
+tules for specific file types (e.g. `.py`).
 
-	" REMAP OF ARROW KEYS
-	" -------------------
-	"  Right/Left used for indentation
-	noremap <Up> <NOP>
-	noremap <Down> <NOP>
-	nmap <silent> <Left> <<
-	nmap <silent> <Right> >>
-	vmap <silent> <Left> <
-	vmap <silent> <Right> >
-	imap <silent> <Left> <C-D>
-	imap <silent> <Right> <C-T>
+
+{% highlight vim %}
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+nmap <silent> <Left> <<
+nmap <silent> <Right> >>
+vmap <silent> <Left> <
+vmap <silent> <Right> >
+imap <silent> <Left> <C-D>
+imap <silent> <Right> <C-T>
+{% endhighlight %}
+
+If you have ever read a tutorial about ViM, I am sure the author tried to 
+convince you that the best way to move around the text is using `h`, `j`,
+`k` and `l` (and not arrow keys). I agree. But I know how difficult it is to
+get used to that. The only way that worked for me was disabling the arrow keys!
+Actually, it wouldn't be nice to waste those keys. So arrow keys are simply
+re-mapped to perform indentation (in normal, insert and visual mode).
 
 
 	" VARIOUS USABILITY TRICKS
 	" ------------------------
-	set backspace=indent,eol,start
 	" set bell off
 	set noeb vb t_vb=
 	" Setup of line breaking and wrapping
@@ -115,41 +126,3 @@ filetype plugin indent on
 	" ---------------------
 	set nobackup
 	set noswapfile
-
-
-	" TERMINAL AND COLORSCHEME
-	" ------------------------
-	" Terminal setting (for better integration with tmux)
-	set t_ut=
-	set t_Co=256
-	set background=dark
-	colorscheme nofrils-mio
-
-	if has("gui_running")
-		set guifont=Inconsolata\ 16
-	endif
-
-
-
-
-	" STATUS LINE
-	" -----------
-	"for status line (User1, User2 colors set with %1, %2...)
-	" colors are defined in colortheme file
-	:set laststatus=2
-	set statusline=
-	set statusline+=%5*\[%n]                                  "buffernr
-	set statusline+=%8*\ %<%F\                                "File+path
-	set statusline+=%2*\ %y\                                  "FileType
-	set statusline+=%3*\ %{''.(&fenc!=''?&fenc:&enc).''}      "Encoding
-	set statusline+=%3*\ %{(&bomb?\",BOM\":\"\")}\            "Encoding2
-	"set statusline+=%4*\ %{&ff}\                              "FileFormat (dos/unix..) 
-	"set statusline+=%2*\ %{v:register}\
-	set statusline+=%8*\ %=\ row:%l/%L\ (%03p%%)\             "Rownumber/total (%)
-	set statusline+=%9*\ col:%03c\                            "Colnr
-	set statusline+=%7*\ \ %m%r%w\ \                      "Modified? Readonly? "
-
-
-
-
-	let python_no_exception_highlight = 1
