@@ -641,6 +641,11 @@ a.pagination-item:hover {
 	text-decoration: none;
 }
 .share-button:hover {
-	color: red;
+	color: blue;
 	text-decoration: none;
+}
+.footer-icons {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5rem;
 }
