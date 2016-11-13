@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Unveil real IP behind Cloudflare-protected domains (and how to avoid it)"
+title: "Unveil the real IP behind Cloudflare-protected domains (and how to avoid it)"
 categories: ['computer_security', 'hacking', 'cloudflare', 'nmap']
 author: alessandro_didiego
 comments: true
 ---
 
-#Unveil real IP behind Cloudflare-protected domains (and how to avoid it)
+#Unveil the real IP behind Cloudflare-protected domains (and how to avoid it)
 
 [Cloudflare](https://www.cloudflare.com/) is a popular compay that provides several useful internet services, like content delivery networks, load balancers, DDoS protection and so on.
 
