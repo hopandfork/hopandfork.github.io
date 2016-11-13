@@ -624,3 +624,23 @@ a.pagination-item:hover {
 	color: #777777;
 	font-size: 0.75rem;
 }
+
+.post-categories {
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+	display: inline-block;
+}
+.share-page {
+	text-align: right;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+	float: right;
+	display: inline-block;
+}
+.share-page:hover {
+	text-decoration: none;
+}
+.share-button:hover {
+	color: red;
+	text-decoration: none;
+}

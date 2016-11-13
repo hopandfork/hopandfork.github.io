@@ -1,6 +1,4 @@
 # Permalinks
-#
-#permalink:           pretty
 permalink:           date
 
 # Setup
@@ -13,6 +11,7 @@ gems: [jekyll-paginate, jekyll-feed]
 paginate:            5
 paginate_path: "page:num"
 
+twitter_username: hopandfork
 
 # Custom vars
 version:             1.0.0
