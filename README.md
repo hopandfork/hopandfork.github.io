@@ -20,7 +20,8 @@ The post file will have following structure:
 
 Note that `author_id` must be defined in `_data/authors.yml` file.
 
-Then, you just need to commit and
-push!
+Remember to limit your lines to 80 characters.
+
+Then, you just need to commit and push!
 
 
