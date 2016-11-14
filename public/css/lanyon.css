@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sidebar-item {
   padding: 0.5rem;
+  font-style: italic;
 }
 .sidebar-item-license {
   margin-top: 10px;
@@ -182,8 +183,14 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-logo {
   padding-top: 1rem;
   padding-bottom: 0rem;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar-logo img {
+  padding: 0px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
