@@ -7,7 +7,6 @@ comments: true
 ---
 
 [Cloudflare](https://www.cloudflare.com/) is a popular company that provides several useful internet services, like content delivery networks, load balancers, DDoS protection and so on.
-
 The best known service is the distributed domain name server that, among other things, acting like a reverse proxy hides the real location of a website. However, Cloudflare is not a magic wand; if not properly configured, **any web service could accidentally leak the real IP** in a number of ways.
 
 In this article we will see a list of  procedures through which is possible to unveil the real IP behind a domain that uses the Cloudflare DNS protection system and how to become immune to them, plus a **[nmap](https://nmap.org/) script written specifically to exploit** one of these misconfigurations.
