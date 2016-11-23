@@ -20,8 +20,10 @@ Arch's repositories. As a partial exception, some packages have to pass through
 the *testing* repository before reaching final users. Anyway, they stay in that
 repository for a small period of time and the whole process for a new package
 is far shorter than on traditional distributions (e.g. Debian).
+You understand that the probability of a buggy version reaching the final user
+is greater than zero in this context.
 
-Now, the question: "is that policy wrong?" Should Arch Linux maintainers keep
+Now, the question: "is the policy wrong?" Should Arch Linux maintainers keep
 packages in *testing* repo for a longer period and possibly reject some 
 updates? It is easy to answer to the latter question: in my opinion, they simply
 can't. Maintaining a rolling-release distro forces you to keep the pace of
