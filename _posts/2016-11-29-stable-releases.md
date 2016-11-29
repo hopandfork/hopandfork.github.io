@@ -6,7 +6,7 @@ author: gabriele_russorusso
 comments: true
 ---
 
-I have been using [Arch Linux](www.archlinux.org), a rolling-release Linux
+I have been using [Arch Linux](http://www.archlinux.org), a rolling-release Linux
 distribution, for three years. This post does not aim at promoting or
 reviewing a distribution, but the following considerations are directly
 correlated to my own experience with a rolling-release distro: so this premise 
