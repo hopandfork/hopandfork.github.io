@@ -5,7 +5,7 @@ permalink:           date
 title:               'Hop and Fork'
 #tagline:             ''
 description:         'Open Source team based in University of Rome "Tor Vergata"'
-url:                 https://hopandfork.github.io
+url:                 http://hopandfork.org
 baseurl: '' 
 gems: [jekyll-paginate, jekyll-feed]
 paginate:            5
