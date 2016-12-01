@@ -37,9 +37,9 @@ comments: true
 {% include sharebuttons.html %}
 
 <div class="post-categories">
+  Posted in 
   {% for category in categories %}
-	  <a href="{{site.baseurl}}/categories.html#{{category|slugize}}">&#35;{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
+	  <a href="{{site.baseurl}}/categories.html#{{category|slugize}}">{{category}}</a>{% unless forloop.last %},&nbsp;{% endunless %}
   {% endfor %}
 </div>
 
