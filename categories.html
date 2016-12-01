@@ -8,16 +8,36 @@ title: Categories
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
     
-    <h3 class="category-head">{{ category_name }}</h3>
+    <h3 class="category-head">
+	    {{ category_name }}
+	    &nbsp;
+	    <a href="javascript:void" style="text-decoration: none;">
+		    <i id="minus{{ category_name | slugize }}" class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
+		    <i id="plus{{ category_name | slugize }}" class="fa fa-plus" aria-hidden="true"></i>
+	    </a>
+    </h3>
     <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
+    <div class="posts-in-category" id="{{ category_name | slugize }}" style="display: none;">
+	    {% for post in site.categories[category_name] %}
+	    <article class="archive-item">
+	      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+	    </article>
+	    {% endfor %}
+    </div>
   </div>
+  <script>
+      $("#minus{{ category_name | slugize }}").click(function(){
+	      $("#{{category_name | slugize }}").hide(500);
+	      $("#minus{{category_name | slugize }}").hide();
+	      $("#plus{{category_name | slugize }}").show();
+      });
+      $("#plus{{ category_name | slugize }}").click(function(){
+	      $("#{{category_name | slugize }}").show(500);
+	      $("#plus{{category_name | slugize }}").hide();
+	      $("#minus{{category_name | slugize }}").show();
+      });
+  </script>
 {% endfor %}
 </div>
+
