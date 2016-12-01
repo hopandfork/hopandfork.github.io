@@ -11,10 +11,11 @@ title: Categories
     
     <h3 class="category-head">
 	    {{ category_name }}
+	    <span id="cnt{{ category_name | slugize }}" class="counter"></span>
 	    &nbsp;
 	    <a href="javascript:void" style="text-decoration: none;">
-		    <i id="minus{{ category_name | slugize }}" class="fa fa-minus" aria-hidden="true" style="display: none;"></i>
-		    <i id="plus{{ category_name | slugize }}" class="fa fa-plus" aria-hidden="true"></i>
+		    <i id="minus{{ category_name | slugize }}" class="fa fa-minus" aria-hidden="true" style="display: none; font-size: 0.9rem;"></i>
+		    <i id="plus{{ category_name | slugize }}" class="fa fa-plus" aria-hidden="true" style="font-size: 0.9rem;"></i>
 	    </a>
     </h3>
     <a name="{{ category_name | slugize }}"></a>
@@ -28,16 +29,18 @@ title: Categories
   </div>
   <script>
       $("#minus{{ category_name | slugize }}").click(function(){
-	      $("#{{category_name | slugize }}").hide(500);
+	      $("#{{category_name | slugize }}").hide(400);
 	      $("#minus{{category_name | slugize }}").hide();
 	      $("#plus{{category_name | slugize }}").show();
       });
       $("#plus{{ category_name | slugize }}").click(function(){
-	      $("#{{category_name | slugize }}").show(500);
+	      $("#{{category_name | slugize }}").show(400);
 	      $("#plus{{category_name | slugize }}").hide();
 	      $("#minus{{category_name | slugize }}").show();
-      });
+      }); 
+      $("#cnt{{ category_name | slugize }}").html(
+	      $("#{{category_name | slugize }}").children("article").length
+      );
   </script>
 {% endfor %}
 </div>
-

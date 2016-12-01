@@ -656,3 +656,11 @@ a.pagination-item:hover {
 	margin-right: auto;
 	margin-top: 0.5rem;
 }
+
+.category-button {
+	font-size: 0.5rem;
+}
+.counter {
+	color: #999;
+	font-size: 0.9rem;
+}
