@@ -29,6 +29,13 @@ luca_fulgieri:
     bio: 'Computer Science student at University of Rome "Tor Vergata", overload developer
                 for Hop and Fork. Problem of Croissant''s addiction.'
 
+marco_passeri:
+    name: "Marco Passeri"
+    web: https://github.com/MrDeepPurple
+    pic: '/public/images/mar.jpg'
+    bio: 'Automation Engineering student at University of Rome "Tor Vergata". The Oompa 
+          Loompa of science.'
+
 gabriele_russorusso:
     name: "Gabriele Russo Russo"
     web: https://github.com/childerico
