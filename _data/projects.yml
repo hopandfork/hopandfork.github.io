@@ -3,7 +3,7 @@ teacup-storm:
     github: https://github.com/hopandfork/teacup-storm
     started: "December, 2016"
     description: 'Apache Storm deploy on EC2 made easy.'
-    postUrl: 'a'
+    postUrl: "/2017/01/10/teacup-storm.html"
 
 vm-palm-tree:
     title: "vm-palm-tree"
