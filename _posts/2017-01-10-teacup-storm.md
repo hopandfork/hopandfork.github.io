@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A storm in a teacup"
-categories: Category1 Category2
+categories: Projects Cloud
 author: federico_didom
 comments: true
 ---
