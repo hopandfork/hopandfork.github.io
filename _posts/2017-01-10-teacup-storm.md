@@ -7,12 +7,13 @@ comments: true
 ---
 
 One of the first things that come to the eye when starting to use Apache Storm
-is the advertised easeness to use and deploy, given the existence of various
+is the easeness to use and deploy, given the existence of various
 tools for automated deploy on AWS, particularly
 [storm-deploy](https://github.com/nathanmarz/storm-deploy).  It is Java-based
 and very easy to use, but unfortunately the last commit dates to December 2013,
-with almost 30 issues open on GitHub.  This makes its use quite risky,
-especially if you need to safely deploy in a short amount of time.
+with issues related to newer versions of Storm.  This makes its use quite risky,
+especially considering that we needed it to deploy a project written for Storm
+1.0.2, having only a short amount of time for debugging.
 
 We are aware that the Open Source philosophy encourages fixing bugs before
 creating entire new projects, but we needed Apache Storm for the Distributed
