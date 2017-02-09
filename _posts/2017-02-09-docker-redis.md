@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Run a Redis server in one minute for development"
+title: "Redis one-minute deploy with Docker"
 categories: Cloud
 author: gabriele_russorusso
 comments: true
