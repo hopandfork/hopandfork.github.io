@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unveil the real IP behind Cloudflare-protected domains (and how to avoid it)"
-categories: ['security', 'hacking']
+categories: ['Security', 'Networking']
 author: alessandro_didiego
 comments: true
 ---

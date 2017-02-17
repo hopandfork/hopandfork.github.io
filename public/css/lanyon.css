@@ -664,3 +664,16 @@ a.pagination-item:hover {
 	color: #999;
 	font-size: 0.9rem;
 }
+
+/* Projects section */
+.project-container {
+	margin: 5px 10px 0 0;  
+	border: 0px;
+	overflow: auto
+}
+.project-details {
+	font-size: 0.8rem;
+	color: #999;
+}
+.project-content {
+}

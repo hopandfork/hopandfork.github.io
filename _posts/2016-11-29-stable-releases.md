@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stable releases vs. stable distributions"
-categories: OpenSource Linux
+categories: Linux
 author: gabriele_russorusso
 comments: true
 ---
