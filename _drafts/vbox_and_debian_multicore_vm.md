@@ -47,4 +47,5 @@ cd ..
 dpkg -i linux-image-xxxxxxx.deb
 ```
 8. Reboot the system and check the core number
-![](http://)
+![lscpu](https://github.com/hopandfork/hopandfork.github.io/blob/master/public/images/post/lscpu.png)
+*(lscpu with Debian on VirtualBox's Multicore VM after the procedure)*
