@@ -17,10 +17,10 @@ or
 less /proc/cpuinfo
 ```
 that the system was still using only one core.
-Searching for this problem on web you can find always the same solution - "check if **VT-X** is enabled or not".
+Searching for this problem on the web you can find always the same solution - "check if **VT-X** is enabled or not".
 Obviusly I checked and found VT-X enabled also looking at VirtualBox's System sheet.
-My problem was that when I installed Debian, as guest OS, the VM was set with a single core and the Kernel version installed didn't support multicore system.
-The solution I found was to recompile the Kernel with old configuration file but activating the **Symmetric Multiprocesssing** (SMP) support.
+My problem was that when I installed Debian, as guest OS, the VM was set with a single core and the Kernel version installed didn't support multicore systems.
+The solution I found was to recompile the Kernel with the old configuration file but activating the **Symmetric Multiprocesssing** (SMP) support.
 
 ### Solution ###
 1. Download kernel sources as an archive (.tar.gz or .zip) from the main repository <https://github.com/torvalds/linux>
@@ -44,7 +44,7 @@ CONFIG_SMP=y
 ```
 make olddefconfig
 ```
-6. Now from the version 3.0 you can use `make deb-pkg` to compile the kernel and create the ".deb" packages (see [kernel-handbook.alioth.debian.org](https://kernel-handbook.alioth.debian.org/ch-common-tasks.html#s-common-official))
+6. Now from version 3.0 you can use `make deb-pkg` to compile the kernel and create the ".deb" packages (see [kernel-handbook.alioth.debian.org](https://kernel-handbook.alioth.debian.org/ch-common-tasks.html#s-common-official))
 7. After the compiling process install the kernel
 ```
 #from the kernel source directory
