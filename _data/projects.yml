@@ -11,3 +11,10 @@ vm-palm-tree:
     started: "December, 2016"
     description: 'Just a bunch of tools to enjoy malware detection on virtual machine.'
     postUrl: ''
+
+change_identity:
+    title: "change_identity"
+    github: https://github.com/hopandfork/change_identity
+    started: "March, 2017"
+    description: 'A script to modify hostname and mac address related to an interface.'
+    postUrl: '/2017/03/01/change-identity.html'
