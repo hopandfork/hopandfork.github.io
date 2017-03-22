@@ -5,7 +5,7 @@ permalink:           /:year/:month/:day/:slug.html
 title:               'Hop and Fork'
 #tagline:             ''
 description:         'Open Source team based in University of Rome "Tor Vergata"'
-url:                 http://hopandfork.org
+url:                 https://hopandfork.org
 baseurl: '' 
 gems: [jekyll-paginate, jekyll-feed]
 paginate:            5
