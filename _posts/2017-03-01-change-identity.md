@@ -6,7 +6,7 @@ author: luca_fulgieri
 comments: true
 ---
 
-**Change Indentity** is a simple Bash script for Unix OSs to modify the hostname and the MAC address related to a network interface.
+**Change Identity** is a simple Bash script for Unix OSs to modify the hostname and the MAC address related to a network interface.
 
 This script depends on two default applications which are installed in most Unix systems: `ifconfig` and `hostname`.
 
